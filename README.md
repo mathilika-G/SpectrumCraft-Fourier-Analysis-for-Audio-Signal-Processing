@@ -8,48 +8,27 @@ I extended this into a "Python-based Audio Signal Processing tool" using the "Fa
 
 ---
 
-## Repository Structure
-SpectrumCraft-Fourier-Analysis-for-Audio-Signal-Processing/
-│
-├── README.md # Project description
-├── requirements.txt # Python dependencies
-│
-├── UG_Project_Document/ # Original UG Mathematics project
-│ ├── Project_Mathematics.docx
-│ └── UG_Project_Summary.pdf
-│
-├── CS_Extension_Code/ # Python FFT implementation
-│ ├── audio_fft_noise_reduction.py
-│ ├── sample_input.wav
-│ ├── sample_output.wav
-│ └── spectrogram_examples/
-│ ├── spectrogram_before.png
-│ └── spectrogram_after.png
-
-
----
-
 ## Features
-- **UG Mathematics Project** — Original theoretical research on Fourier Analysis and applications.
-- **CS Implementation** — Python FFT code for audio processing.
-- **Audio Frequency Analysis** — View frequency spectrum of `.wav` files.
-- **Noise Reduction** — Remove unwanted frequencies above a chosen cutoff.
-- **Spectrogram Visualization** — Before & after comparison.
+- "UG Mathematics Project" — Original theoretical research on Fourier Analysis and applications.
+- "CS Implementation" — Python FFT code for audio processing.
+- "Audio Frequency Analysis" — View frequency spectrum of `.wav` files.
+- "Noise Reduction" — Remove unwanted frequencies above a chosen cutoff.
+- "Spectrogram Visualization" — Before & after comparison.
 
 ---
 
 ## How It Works
-1. **Load Audio** → Read `.wav` file.
-2. **FFT Analysis** → Convert waveform from time to frequency domain.
-3. **Filter Noise** → Remove unwanted frequencies.
-4. **Inverse FFT** → Rebuild clean audio signal.
-5. **Save & Visualize** → Output `.wav` file and spectrogram images.
+1. "Load Audio" → Read `.wav` file.
+2. "FFT Analysis" → Convert waveform from time to frequency domain.
+3. "Filter Noise" → Remove unwanted frequencies.
+4. "Inverse FFT" → Rebuild clean audio signal.
+5. "Save & Visualize" → Output `.wav` file and spectrogram images.
 
 ---
 
 ## Setup & Run Locally
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/YOUR_USERNAME/SpectrumCraft-Fourier-Analysis-for-Audio-Signal-Processing.git
 cd SpectrumCraft-Fourier-Analysis-for-Audio-Signal-Processing
 
